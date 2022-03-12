@@ -38,6 +38,31 @@
      font-weight: bold;
      text-transform: uppercase;
 }
+::selection{
+     color: #000;
+     background: yellow;
+}
+/* width */
+::-webkit-scrollbar {
+     width: 7px;
+   }
+   
+   /* Track */
+   ::-webkit-scrollbar-track {
+     background: #fff;
+   }
+   
+   /* Handle */
+   ::-webkit-scrollbar-thumb {
+     background:var(--main-clr);
+     border-radius: 10px;
+   }
+   
+   /* Handle on hover */
+   ::-webkit-scrollbar-thumb:hover {
+     background: darkblue;
+   }
+
 
 
 
